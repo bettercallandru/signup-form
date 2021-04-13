@@ -1,6 +1,7 @@
 body
 {    
-    background-color: var(--primary-red);          
+    background-color: var(--primary-red); 
+    text-align: center;         
 }
 
 .background 
@@ -17,4 +18,8 @@ body
 {
     position: relative;
     z-index: 99;
+}
+
+.title{
+
 }

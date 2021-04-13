@@ -1,7 +1,9 @@
 :root
-{
+{    
     --primary-red: hsl(0, 100%, 74%);
     --primary-green: hsl(154, 59%, 51%);
+    --text-dark: hsl(249, 10%, 26%);
+    --text-gayish: hsl(246, 25%, 77%);
 }
 
 body 
@@ -14,4 +16,8 @@ body
 body, p, span, h1, h2 
 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-white{
+    color: white;
 }
