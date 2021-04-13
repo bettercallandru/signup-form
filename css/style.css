@@ -44,14 +44,37 @@ body
 {
     background: white;
     padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.137);
 }
 
-.input{
+.input
+{
     width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 223, 223); 
+    color: var(--text-dark);
+    font-weight: 600;
 }
 
-.input:active{
-    outline: none;
+.buttom
+{
+    color: white; 
+    cursor: pointer;
+    border: none;
+    background: var(--primary-green);
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+    box-shadow: 0 5px 1px hsl(154, 55%, 42%);
+}
+
+.buttom:hover
+{    
+    background: hsl(154, 54%, 44%);
+    transition: background .5s;
 }
 /* fin objetos */
 
@@ -70,4 +93,18 @@ body
 .landing__message
 {
     margin: 40px auto;
+}
+
+.message--adver
+{
+    display: block;    
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;    
+    color: var(--text-gayish);
+}
+
+.font-terms
+{
+    color: var(--primary-red);
 }
