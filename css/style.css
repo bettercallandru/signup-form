@@ -20,6 +20,12 @@ body
 }
 
 /* objetos */
+.landing
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .title
 {
     font-size: 1.6rem;
@@ -69,33 +75,32 @@ body
     text-transform: uppercase;
     letter-spacing: 1px;    
     box-shadow: 0 5px 1px hsl(154, 55%, 42%);
+    transition: opacity .5s;
 }
 
 .buttom:hover
 {    
-    background: hsl(154, 54%, 44%);
-    transition: background .5s;
+    opacity: 0.8;    
 }
 /* fin objetos */
 
-.body-position 
+
+/* elementos */
+.landing__message
+{
+    margin: 40px auto;
+}
+/* fin elementos */
+
+
+/* modificadores */
+.body--position 
 {
     position: relative;
     z-index: 99;
 }
 
-.landing
-{
-    width: 90%;
-    margin: 0 auto;
-}
-
-.landing__message
-{
-    margin: 40px auto;
-}
-
-.message--adver
+.message--little
 {
     display: block;    
     width: 80%;
@@ -104,7 +109,8 @@ body
     color: var(--text-gayish);
 }
 
-.font-terms
+.message--link
 {
     color: var(--primary-red);
 }
+/* fin modificadores */
