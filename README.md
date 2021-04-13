@@ -1,6 +1,6 @@
 # Sign Up - (Proyect)
 
-[Vista inicial del proyecto](design/desktop-preview.jpg)
+![Vista inicial del proyecto](./design/desktop-preview.jpg)
 
 ## Descripcion
 
