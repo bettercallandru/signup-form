@@ -11,15 +11,63 @@ body
     left: 0; 
     bottom: 0; 
     right: 0;    
-    background-image: url(../images/bg-intro-mobile.png);
+    background-image: url(../images/bg-intro-mobile.png);       
 }
 
-.position 
+.radio
+{
+    border-radius: 9px;
+}
+
+/* objetos */
+.title
+{
+    font-size: 1.6rem;
+}
+
+.paragraph
+{
+    white-space: 400px;    
+    padding: 0 10px;
+}
+
+.pop-up
+{
+    background: var(--violet);    
+    padding: 15px 50px;
+    font-size: 0.98rem;    
+    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.form
+{
+    background: white;
+    padding: 20px;
+}
+
+.input{
+    width: 100%;
+}
+
+.input:active{
+    outline: none;
+}
+/* fin objetos */
+
+.body-position 
 {
     position: relative;
     z-index: 99;
 }
 
-.title{
+.landing
+{
+    width: 90%;
+    margin: 0 auto;
+}
 
+.landing__message
+{
+    margin: 40px auto;
 }
