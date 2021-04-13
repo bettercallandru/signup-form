@@ -1,7 +1,14 @@
+:root
+{
+    --primary-red: hsl(0, 100%, 74%);
+    --primary-green: hsl(154, 59%, 51%);
+}
+
 body 
 {
     margin: 0; 
     padding: 0;     
+    font-size: 16px;
 }
 
 body, p, span, h1, h2 

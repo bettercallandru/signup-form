@@ -1,0 +1,20 @@
+body
+{    
+    background-color: var(--primary-red);          
+}
+
+.background 
+{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;    
+    background-image: url(../images/bg-intro-mobile.png);
+}
+
+.position 
+{
+    position: relative;
+    z-index: 99;
+}
