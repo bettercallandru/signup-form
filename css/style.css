@@ -1,0 +1,116 @@
+body
+{    
+    background-color: var(--primary-red); 
+    text-align: center;         
+}
+
+.background 
+{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;    
+    background-image: url(../images/bg-intro-mobile.png);       
+}
+
+.radio
+{
+    border-radius: 9px;
+}
+
+/* objetos */
+.landing
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title
+{
+    font-size: 1.6rem;
+}
+
+.paragraph
+{
+    white-space: 400px;    
+    padding: 0 10px;
+}
+
+.pop-up
+{
+    background: var(--violet);    
+    padding: 15px 50px;
+    font-size: 0.98rem;    
+    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.form
+{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.137);
+}
+
+.input
+{
+    width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 223, 223); 
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.buttom
+{
+    color: white; 
+    cursor: pointer;
+    border: none;
+    background: var(--primary-green);
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+    box-shadow: 0 5px 1px hsl(154, 55%, 42%);
+    transition: opacity .5s;
+}
+
+.buttom:hover
+{    
+    opacity: 0.8;    
+}
+/* fin objetos */
+
+
+/* elementos */
+.landing__message
+{
+    margin: 40px auto;
+}
+/* fin elementos */
+
+
+/* modificadores */
+.body--position 
+{
+    position: relative;
+    z-index: 99;
+}
+
+.message--little
+{
+    display: block;    
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;    
+    color: var(--text-gayish);
+}
+
+.message--link
+{
+    color: var(--primary-red);
+}
+/* fin modificadores */

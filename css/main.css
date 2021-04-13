@@ -1,10 +1,26 @@
+:root
+{    
+    --primary-red: hsl(0, 100%, 74%);
+    --primary-green: hsl(154, 59%, 51%);
+    --text-dark: hsl(249, 10%, 26%);
+    --text-gayish: hsl(246, 25%, 77%);
+    --violet: hsl(248, 32%, 49%);    
+}
+
 body 
 {
     margin: 0; 
     padding: 0;     
+    font-size: 16px;
 }
 
-body, p, span, h1, h2 
+body, p, span, h1, h2, div, form, input
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-white
+{    
+    color: white;
 }
