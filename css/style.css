@@ -32,8 +32,7 @@ body
 }
 
 .paragraph
-{
-    white-space: 400px;    
+{    
     padding: 0 10px;
 }
 
@@ -64,6 +63,11 @@ body
     border: 1px solid rgb(223, 223, 223); 
     color: var(--text-dark);
     font-weight: 600;
+}
+
+.input:focus
+{
+    outline: 1px solid rgb(143, 143, 143);
 }
 
 .buttom
