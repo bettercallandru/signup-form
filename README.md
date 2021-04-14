@@ -1,6 +1,6 @@
 # Sign Up - (Proyect)
 
-![Vista inicial del proyecto](./design/desktop-preview.jpg)
+![Vista inicial del proyecto](https://storage.googleapis.com/drosander/images/design/signup-form/desktop-preview.jpg)
 
 ## Descripcion
 
