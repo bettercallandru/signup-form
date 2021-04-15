@@ -11,7 +11,7 @@ body
     left: 0; 
     bottom: 0; 
     right: 0;    
-    background-image: url(../images/bg-intro-mobile.png);       
+    background-image: url(https://storage.googleapis.com/drosander/images/bg-intro-mobile.png);       
 }
 
 .radio
@@ -32,8 +32,7 @@ body
 }
 
 .paragraph
-{
-    white-space: 400px;    
+{    
     padding: 0 10px;
 }
 
@@ -54,11 +53,16 @@ body
     box-shadow: 0 8px rgba(0, 0, 0, 0.137);
 }
 
+.box
+{
+    position: relative;
+}
+
 .input
 {
     width: 100%;
-    outline: none;
-    margin-bottom: 15px;
+    outline: none;    
+    margin-bottom: 20px;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid rgb(223, 223, 223); 
@@ -66,15 +70,21 @@ body
     font-weight: 600;
 }
 
-.buttom
+.input:focus
 {
+    outline: 1px solid rgb(143, 143, 143);
+}
+
+.buttom
+{    
+    margin-top: 10px;
     color: white; 
     cursor: pointer;
     border: none;
     background: var(--primary-green);
     text-transform: uppercase;
     letter-spacing: 1px;    
-    box-shadow: 0 5px 1px hsl(154, 55%, 42%);
+    box-shadow: 0 5px 1px hsl(154, 51%, 45%);
     transition: opacity .5s;
 }
 
@@ -88,7 +98,7 @@ body
 /* elementos */
 .landing__message
 {
-    margin: 40px auto;
+    margin: 30px auto;
 }
 /* fin elementos */
 
@@ -112,5 +122,31 @@ body
 .message--link
 {
     color: var(--primary-red);
+}
+
+.input--error, .input--error:focus
+{
+    color: var(--primary-red);
+    outline: 1px solid var(--primary-red)
+}
+
+.message--warning
+{
+    position: absolute;
+    text-align: end;
+    bottom: 2px;
+    width: 100%;
+    color: var(--primary-red);
+    font-style: italic;
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+
+.icon--error
+{
+    position: absolute;
+    right: 20px;
+    top: 20%;    
+    z-index: 2;
 }
 /* fin modificadores */

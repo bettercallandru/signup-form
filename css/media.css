@@ -1,5 +1,5 @@
 @media (min-width: 500px)
-{
+{    
     .landing__message, .pop-up, .form
     {        
         width: 80%;    
@@ -14,5 +14,56 @@
     .form
     {
         margin: 0px auto;
+    }
+}
+
+@media (min-width: 1440px)
+{
+    .background
+    {
+        background-image: url(https://storage.googleapis.com/drosander/images/bg-intro-desktop.png);       
+    }
+    
+    .landing
+    {        
+        width: 80%;
+        max-width: 1200px;        
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        margin: 10% auto 0 auto;
+    }
+
+    .landing__message, .landing__signup
+    {
+        width: 50%;
+        max-width: unset;
+    }
+
+    .landing__message
+    {
+        text-align: left;            
+    }
+    
+    .title
+    {
+        font-size: 3rem;
+    }
+
+    .paragraph
+    {
+        line-height: 1.8;;        
+    }    
+
+    .pop-up, .form
+    {
+        width: 100%;   
+        margin-right: 0;     
+        max-width: 550px;                
+    }
+
+    .form
+    {
+        padding: 35px;
     }
 }
