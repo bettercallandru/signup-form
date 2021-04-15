@@ -1,0 +1,1 @@
+submitButtom.addEventListener('click', validacion);

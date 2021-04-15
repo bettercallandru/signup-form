@@ -1,5 +1,5 @@
 @media (min-width: 500px)
-{
+{    
     .landing__message, .pop-up, .form
     {        
         width: 80%;    
@@ -19,6 +19,11 @@
 
 @media (min-width: 1440px)
 {
+    .background
+    {
+        background-image: url(https://storage.googleapis.com/drosander/images/bg-intro-desktop.png);       
+    }
+    
     .landing
     {        
         width: 80%;
