@@ -17,6 +17,7 @@
 #images - design
 design/*.jpg
 images/*.png
+images/*.svg
 
 # .md
 README-template.md
