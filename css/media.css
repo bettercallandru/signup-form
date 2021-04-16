@@ -6,9 +6,13 @@
         max-width: 500px;
     }    
 
+    /* 
+    EN margins y padding: top-bottom estan vinculados right-left igual
+    Entonces auto que se aplica al derecho, se aplicara al lado izquierdo
+    */
     .pop-up
     {
-        margin: 0px auto 20px auto;
+        margin: 0px auto 20px;
     }
 
     .form

@@ -4,7 +4,14 @@
     --primary-green: hsl(154, 59%, 51%);
     --text-dark: hsl(249, 10%, 26%);
     --text-gayish: hsl(246, 25%, 77%);
-    --violet: hsl(248, 32%, 49%);    
+    --violet: hsl(248, 32%, 49%);
+    --white: #FFFF;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body 
@@ -13,14 +20,12 @@ body
     padding: 0;     
     font-size: 16px;
 }
-
-body, p, span, h1, h2, div, form, input
+ p, span, h1, h2,input, button
 {
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
 
 .text-white
 {    
-    color: white;
+    color: var(--white);
 }
